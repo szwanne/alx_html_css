@@ -1,0 +1,55 @@
+/* CSS reset rules */
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* APPLYING FLEXBOX PROPERTIES */
+
+body {
+  flex-direction: column;
+  border: 1px solid #555;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  border: 1px solid #555;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+  border: 1px solid #555;
+  min-height: 60vh;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #555;
+  min-height: 60vh;
+}
+
+header {
+  border: 1px solid #555;
+  min-height: 20vh;
+}
+
+footer {
+  border: 1px solid #555;
+  min-height: 20vh;
+}
+
+.word {
+  color: rgb(234, 6, 82);
+}
+p {
+  padding: 20px;
+  font-size: 20px;
+}
