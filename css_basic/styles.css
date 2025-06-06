@@ -11,8 +11,11 @@ body {
 /* APPLYING FLEXBOX PROPERTIES */
 
 body {
+  display: flex;
   flex-direction: column;
   border: 1px solid #555;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 main {
@@ -52,4 +55,33 @@ footer {
 p {
   padding: 20px;
   font-size: 20px;
+}
+
+/*Table*/
+
+table {
+  border: 1px solid #555;
+  min-width: 300px;
+  min-height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #555;
+}
+
+caption {
+  margin-bottom: 15px;
+}
+tbody,
+th {
+  border: 1px solid #555;
+}
+
+th {
+  font-weight: bold;
 }
