@@ -317,3 +317,50 @@ span.purple {
   max-width: 400px;
   line-height: 27px;
 }
+
+/* FOOTER */
+
+footer {
+  padding: 20px;
+  width: 100%;
+  min-height: 20vh;
+  background-color: #071629;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: space-between;
+}
+
+/* nav,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto; /* This center the nav */
+
+.footer .social-links {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  min-width: 80%;
+  /* background-color: lightgreen; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  bottom: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  font-size: 25px;
+}
