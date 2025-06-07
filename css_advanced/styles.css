@@ -11,3 +11,27 @@ body {
   padding: 0;
   margin: 0;
 }
+
+/*NAVIGATION BAR*/
+
+header {
+  background-color: #e42828;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-links > ul {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 500px;
+  background-color: lightcoral;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
