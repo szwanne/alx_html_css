@@ -145,3 +145,81 @@ span.purple {
   align-items: center;
   padding: 20px;
 }
+
+/*TESTIMONIALS SECTION */
+
+.testimonials {
+  background-color: #c271ff;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonial-text {
+  line-height: 30px;
+  align-self: center;
+  max-width: 550px;
+  color: white;
+  font-size: 20px;
+}
+
+/* TUTORIAL SECTION */
+
+.tutorials h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.tutorial-container {
+  display: flex;
+  gap: 15px;
+  margin: 0 100px;
+}
+/*This will reduce Phillip's images */
+.phillip {
+  width: 10%;
+  height: 10%;
+}
+
+.item--1,
+.item--2,
+.item--3,
+.item--4 {
+  background-color: aqua;
+  line-height: 30px;
+  max-width: 350px;
+  padding: 15px;
+}
+
+.diagonal-smile,
+.happy-smile,
+.natural-smile,
+.sad-smile {
+  width: 100%;
+}
+
+.name-picture {
+  display: flex;
+  gap: 15px;
+}
+
+.tutorials {
+  min-height: 70vh;
+  background-color: lightskyblue;
+  padding: 20px;
+}
+
+.rates {
+  display: flex;
+  gap: 15px;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
