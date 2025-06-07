@@ -72,8 +72,10 @@ button.register {
   min-width: 200px;
   min-height: 50px;
   border-radius: 30px;
-  background-color: blueviolet;
+  background-color: #c271ff;
   color: white;
+  border: none;
+  box-shadow: 1.5px 1.5px 30px 0.25px black;
 }
 
 .bottom-section h2 {
@@ -190,7 +192,6 @@ span.purple {
 .item--2,
 .item--3,
 .item--4 {
-  background-color: aqua;
   line-height: 40px;
   max-width: 350px;
   padding: 15px;
@@ -210,7 +211,6 @@ span.purple {
 
 .tutorials {
   min-height: 70vh;
-  background-color: lightskyblue;
   padding: 20px;
 }
 
@@ -245,7 +245,7 @@ span.purple {
   transform: translate(-50%, -50%); /* Centers the content */
 }
 
-/*MEMBERSHI SECTION */
+/*MEMBERSHIP SECTION */
 
 .membership-container {
   background-color: #071629;
@@ -289,6 +289,7 @@ span.purple {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .faq-section h2 {
@@ -318,6 +319,10 @@ span.purple {
   line-height: 27px;
 }
 
+.grey {
+  color: #a2a7af;
+}
+
 /* FOOTER */
 
 footer {
@@ -332,15 +337,7 @@ footer {
   justify-content: space-between;
 }
 
-/* nav,
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1600px;
-  margin: 0 auto; /* This center the nav */
-
-.footer .social-links {
   color: white;
 }
 
@@ -354,7 +351,7 @@ footer {
 }
 
 .copyright {
-  color: white;
+  color: #495462;
   text-align: center;
   bottom: 0;
 }
@@ -363,4 +360,16 @@ footer {
   display: flex;
   gap: 10px;
   font-size: 25px;
+  height: fit-content;
+}
+
+.fa-brands {
+  color: black;
+  background-color: white;
+}
+
+.social-links > i {
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff; /* White */
 }
