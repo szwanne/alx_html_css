@@ -237,3 +237,10 @@ span.purple {
 .grey-star {
   color: #afa1a1;
 }
+
+.tutorial-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the content */
+}
