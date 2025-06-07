@@ -178,7 +178,7 @@ span.purple {
 .tutorial-container {
   display: flex;
   gap: 15px;
-  margin: 0 100px;
+  margin: 0 200px;
 }
 /*This will reduce Phillip's images */
 .phillip {
@@ -191,7 +191,7 @@ span.purple {
 .item--3,
 .item--4 {
   background-color: aqua;
-  line-height: 30px;
+  line-height: 40px;
   max-width: 350px;
   padding: 15px;
 }
@@ -217,9 +217,23 @@ span.purple {
 .rates {
   display: flex;
   gap: 15px;
+  justify-content: space-between;
 }
 
 .stars {
   display: flex;
   gap: 5px;
+}
+
+.name-picture h4,
+.rates p {
+  color: #c271ff;
+}
+
+.purple-star {
+  color: #c271ff;
+}
+
+.grey-star {
+  color: #afa1a1;
 }
