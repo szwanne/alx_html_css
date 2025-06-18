@@ -4,7 +4,7 @@ html,
 body {
   min-height: 100vh;
   max-width: 100vw;
-  font-family: "Source Sans 3", sans-serif, "spin-cycle-ot";
+  font-family: "SourceSans3", "SpinCycle", sans-serif;
   box-sizing: border-box;
   overflow-x: hidden; /*Prevent horizontal scroll bar from max-width from 100vw */
 }
@@ -15,4 +15,54 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: inherit; /*This will inherit box-sizing from html/body */
+}
+
+/* @font-face {
+  font-family: "SpinCycle";
+  src: url("/headphones/fonts/spincycle_ot.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: "SourceSan3";
+  src: url("headphones/fonts/SourceSans3-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/*NAVIGATION BAR*/
+
+header {
+  padding: 20px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto; /* This center the nav */
+  background-color: aquamarine;
+}
+
+.right-links > ul {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 400px;
+  list-style: none;
+}
+
+.left-links > ul {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 200px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
