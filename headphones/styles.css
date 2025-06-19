@@ -7,6 +7,8 @@ body {
   font-family: "SourceSans3", "SpinCycle", sans-serif;
   box-sizing: border-box;
   overflow-x: hidden; /*Prevent horizontal scroll bar from max-width from 100vw */
+  background-color: beige;
+  font-size: 20px;
 }
 
 *,
@@ -65,4 +67,46 @@ nav {
 a {
   text-decoration: none;
   color: white;
+}
+
+/* MIDDLE SECTION */
+
+.middle-text {
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgreen;
+  gap: 15px;
+}
+
+.btn {
+  min-width: 180px;
+  min-height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #ff6565;
+  color: white;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.middle-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/*BOTTOM SECTION */
+
+.bottom-text {
+  max-width: 660px;
+  min-height: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 100px auto;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  background-color: lightgray;
 }
