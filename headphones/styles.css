@@ -147,3 +147,39 @@ a {
   align-items: center;
   padding: 20px;
 }
+
+/*OFFERED SECTION */
+
+.offered-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.offered-paragraph {
+  width: 800px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.offered-items {
+  display: flex;
+  margin: 0 50px;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgoldenrodyellow;
+  align-items: center;
+  max-width: 300px;
+  text-align: center;
+  min-height: 250px;
+}
