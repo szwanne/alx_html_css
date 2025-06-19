@@ -74,7 +74,7 @@ a {
 .middle-text {
   display: flex;
   flex-direction: column;
-  min-height: 40vh;
+  min-height: 45vh;
   justify-content: flex-end;
   align-items: center;
   background-color: lightgreen;
@@ -104,9 +104,46 @@ a {
   min-height: 20vh;
   margin-left: auto;
   margin-right: auto;
-  margin: 100px auto;
+  margin: 400px auto;
   text-align: center;
   line-height: 30px;
   font-size: 20px;
   background-color: lightgray;
+}
+
+/* IMAGE CONTAINER */
+
+.image-container {
+  position: relative; /*This will allow positioning of text overlay absolutely within */
+  width: 100%;
+  height: auto;
+  overflow: hidden; /* This will ensure that the image does not overflow if adjusted */
+}
+
+.image-container .cover-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /*This will make the text to take the width of the image 8? */
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay-text main {
+  flex-grow: 1; /*This will allow main to take up the remaing vertical space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
