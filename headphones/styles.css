@@ -64,6 +64,11 @@ nav {
   list-style: none;
 }
 
+/* .right-links > ul > li > a {
+  text-decoration: none;
+  color: white;
+} */
+
 a {
   text-decoration: none;
   color: white;
@@ -298,8 +303,8 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px 0;
-  gap: 100px;
+  margin: 80px 0;
+  gap: 50px;
 }
 
 .testimonials-text h2 {
@@ -317,10 +322,11 @@ button:hover {
 
 .testimonials-items {
   display: flex;
-  margin: 20px auto;
-  gap: 10px;
-  justify-content: space-around;
-  min-width: 1100px;
+  margin: auto auto;
+  gap: 50px;
+  justify-content: center;
+  /* min-width: 1100px; */
+  min-width: auto;
 }
 
 .item--1,
@@ -329,13 +335,13 @@ button:hover {
 .item--4 {
   display: flex;
   flex-direction: column;
-  background-color: #ff6565;
   align-items: center;
   min-width: 200px;
   text-align: center;
   min-height: 150px;
   color: white;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .image-container_1 {
@@ -390,11 +396,12 @@ button:hover {
 
 /*PENTAGON SHAPE */
 
-:root {
-  --scale: 2.5; /* This helps to resize the pentagon shape */
-}
+/* This helps to resize the pentagon shape */
+/* :root {
+  --scale: 2.5; 
+} */
 
-#pentagon {
+/* #pentagon {
   position: relative;
   width: calc(54px * var(--scale));
   box-sizing: content-box;
@@ -422,20 +429,21 @@ button:hover {
   justify-content: space-around;
   min-width: 1100px;
   min-height: 20vh;
-}
+} */
 
 .bold {
   position: relative;
-  top: -120%;
+  top: -50%;
   left: 0%;
   font-weight: 500;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .texts {
   position: relative;
-  top: -110%;
+  top: -40%;
   left: 0%;
+  font-size: 15px;
 }
 
 /*CONTACT SECTION */
