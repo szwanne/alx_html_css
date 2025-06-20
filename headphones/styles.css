@@ -7,7 +7,7 @@ body {
   font-family: "SourceSan3", "SpinCycle", sans-serif;
   box-sizing: border-box;
   overflow-x: hidden; /*Prevent horizontal scroll bar from max-width from 100vw */
-  background-color: beige;
+  /* background-color: beige; */
   font-size: 20px;
 }
 
@@ -108,7 +108,7 @@ a {
   text-align: center;
   line-height: 30px;
   font-size: 20px;
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 
 /* IMAGE CONTAINER */
@@ -192,7 +192,7 @@ a {
 .item-4 {
   display: flex;
   flex-direction: column;
-  background-color: lightgoldenrodyellow;
+  /* background-color: lightgoldenrodyellow; */
   align-items: center;
   max-width: 300px;
   text-align: center;
@@ -364,7 +364,7 @@ input {
 }
 
 form {
-  background-color: #555;
+  /* background-color: #555; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -380,7 +380,7 @@ form {
   display: block; /* Make span behave like a block */
   width: 100%; /* Full width or customize */
   height: 2px; /* Thickness of the line */
-  background-color: white;
+  background-color: grey;
   margin: 1px 0; /* Optional spacing */
 }
 
