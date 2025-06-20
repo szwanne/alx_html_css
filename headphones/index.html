@@ -25,24 +25,50 @@
         <div class="overlay-text">
           <!--HEADER SECTION-->
           <header>
-            <nav>
+            <nav id="desktop-nav">
               <div class="left-links">
                 <ul>
                   <img
                     src="/headphones/images/logo.png"
                     alt="logo"
-                    width=""
-                    height=""
+                    class="logo"
                   />
                 </ul>
               </div>
 
               <div class="right-links">
                 <ul>
-                  <li>what we do</li>
-                  <li>our results</li>
-                  <li>contact us</li>
+                  <li><a href="about">what we do</a></li>
+                  <li><a href="experience">our results</a></li>
+                  <li><a href="contact">contact us</a></li>
                 </ul>
+              </div>
+            </nav>
+            <nav id="hamburger-nav">
+              <div class="left-links">
+                <ul>
+                  <img
+                    src="/headphones/images/logo.png"
+                    alt="logo"
+                    class="logo"
+                  />
+                </ul>
+              </div>
+              <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="menu-links">
+                  <li><a href="about" onclick="toggleMenu()">what we do</a></li>
+                  <li>
+                    <a href="experience" onclick="toggleMenu()">our results</a>
+                  </li>
+                  <li>
+                    <a href="contact" onclick="toggleMenu()">contact us</a>
+                  </li>
+                </div>
               </div>
             </nav>
           </header>
