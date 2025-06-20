@@ -159,7 +159,7 @@ a {
   background-color: rgb(106, 111, 119, 0.7);
   opacity: 1; /* Adjust for blending */
   pointer-events: none; /* So it doesn't block interactions */
-  z-index: 1;
+  z-index: -2;
   mix-blend-mode: multiply;
 }
 
@@ -292,7 +292,7 @@ a {
   background-color: rgb(106, 111, 119, 0.7);
   opacity: 1; /* Adjust for blending */
   pointer-events: none; /* So it doesn't block interactions */
-  z-index: 1;
+  z-index: -2;
   mix-blend-mode: multiply;
 }
 
@@ -308,7 +308,7 @@ a {
   box-sizing: content-box;
   border-width: calc(50px * var(--scale)) calc(18px * var(--scale)) 0;
   border-style: solid;
-  border-color: red transparent;
+  border-color: #ff6565 transparent;
 }
 
 #pentagon:before {
@@ -320,7 +320,7 @@ a {
   left: calc(-18px * var(--scale));
   border-width: 0 calc(45px * var(--scale)) calc(35px * var(--scale));
   border-style: solid;
-  border-color: transparent transparent red;
+  border-color: transparent transparent #ff6565;
 }
 
 .pent-items {
