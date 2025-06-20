@@ -149,6 +149,18 @@ a {
   transform: none;
 }
 
+/*HOVER EFFECT */
+
+a:hover {
+  color: #ff6565;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: all 0.3 ease-in-out;
+}
 /* MIDDLE SECTION */
 
 .middle-text {
