@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/headphones/0-styles.css" />
+    <link rel="stylesheet" href="/headphones/mediaqueries.css" />
+
+    <title>Header</title>
+  </head>
+  <body>
+    <div class="image-container">
+      <img
+        src="/headphones/images/headphones_hero_1.jpg"
+        alt="women wearing headphones"
+        class="cover-image"
+      />
+      <div class="overlay-text">
+        <!--HEADER SECTION-->
+        <header>
+          <nav id="desktop-nav">
+            <div class="left-links">
+              <ul>
+                <a href="#home">
+                  <img
+                    src="/headphones/images/logo.png"
+                    alt="logo"
+                    class="logo"
+                  />
+                </a>
+              </ul>
+            </div>
+
+            <div class="right-links">
+              <ul>
+                <li><a href="about">what we do</a></li>
+                <li><a href="experience">our results</a></li>
+                <li><a href="contact">contact us</a></li>
+              </ul>
+            </div>
+          </nav>
+          <nav id="hamburger-nav">
+            <div class="left-links">
+              <ul>
+                <img
+                  src="/headphones/images/logo.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </ul>
+            </div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <li><a href="about" onclick="toggleMenu()">what we do</a></li>
+                <li>
+                  <a href="experience" onclick="toggleMenu()">our results</a>
+                </li>
+                <li>
+                  <a href="contact" onclick="toggleMenu()">contact us</a>
+                </li>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <!--MIDDLE SECTION-->
+
+        <div class="middle-text">
+          <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+          <p>Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+
+          <button type="button" class="btn" width="300px" height="30px">
+            CALL TO ACTION
+          </button>
+        </div>
+
+        <!--BOTTOM SECTION-->
+
+        <div class="bottom-text">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/headphones/script.js"></script>
+  </body>
+</html>
