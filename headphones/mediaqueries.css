@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse; /*This will reverse the logo and the hamburger menu */
-    background-color: aquamarine;
   }
 
   .menu-links {
@@ -34,7 +33,6 @@
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    background-color: rgb(20, 182, 61);
     max-width: fit-content;
     min-height: 500px;
   }
@@ -108,5 +106,14 @@
   .testimonials-paragraph {
     max-width: 450px;
     font-size: 20px;
+  }
+  #hamburger-nav {
+    justify-content: space-evenly;
+  }
+  #hamburger-nav .left-links {
+    padding-right: 100px;
+  }
+  .menu-links {
+    left: 110px;
   }
 }
