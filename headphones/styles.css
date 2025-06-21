@@ -176,6 +176,8 @@ button:hover {
   align-items: center;
   /* background-color: lightgreen; */
   gap: 15px;
+  max-width: 100%;
+  text-align: center;
 }
 
 .btn {
