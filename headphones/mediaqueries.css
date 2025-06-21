@@ -20,6 +20,24 @@
   }
 }
 
+@media screen and (max-width: 1064px) {
+  .offered-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 5px;
+    justify-items: center;
+  }
+
+  .pent-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1px;
+    row-gap: 5px;
+    justify-items: center;
+  }
+}
+
 @media screen and (max-width: 976px) {
   .offered-items {
     display: flex;
@@ -29,12 +47,8 @@
   }
 
   .testimonials-items {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-    max-width: fit-content;
-    min-height: 500px;
+    margin: 0 auto;
+    min-height: fit-content;
   }
 
   .item--1 img,
@@ -76,6 +90,51 @@
   .cover-image_1 {
     min-height: 1200px;
   }
+
+  .pent-items {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50%;
+    margin-bottom: 100px;
+  }
+
+  .bold {
+    position: relative;
+    z-index: 2;
+    top: 200%;
+    left: 5px;
+  }
+
+  .texts {
+    position: relative;
+    z-index: 2;
+    top: 250%;
+    left: 5px;
+  }
+
+  .last {
+    position: relative;
+    z-index: 2;
+    top: -1930%;
+    left: 0px;
+  }
+
+  .lasts {
+    position: absolute;
+    z-index: 2;
+    top: -1750%;
+    left: 20px;
+  }
+
+  .testimonials-text {
+    gap: 2px;
+  }
+  .testimonials-text h2 {
+    margin-top: 70px;
+  }
 }
 
 @media screen and (max-width: 779px) {
@@ -86,6 +145,43 @@
 
   .offered-paragraph {
     max-width: 500px;
+  }
+
+  .testimonials-text h2 {
+    max-width: 450px;
+    margin-top: 100px;
+  }
+
+  :root {
+    --scale: 1.8;
+  }
+
+  .bold {
+    position: relative;
+    z-index: 2;
+    top: 160%;
+    left: 5px;
+  }
+
+  .texts {
+    position: relative;
+    z-index: 2;
+    top: 190%;
+    left: 5px;
+  }
+
+  .last {
+    position: relative;
+    z-index: 2;
+    top: -1650%;
+    left: 0px;
+  }
+
+  .lasts {
+    position: absolute;
+    z-index: 2;
+    top: -1500%;
+    left: 0px;
   }
 }
 
